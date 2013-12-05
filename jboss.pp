@@ -51,7 +51,7 @@ class { 'mysql::server':
   },
   root_password    => 'strongpassword',
   databases => {
-    'bingel' => {
+    'whatever' => {
 	ensure => present,
 	charset => 'utf8',
      }
